@@ -8,3 +8,7 @@ build:
 MATLAB:
   install:
     - requirements: docs/requirements.txt
+
+formats:
+    - pdf
+    - epub
