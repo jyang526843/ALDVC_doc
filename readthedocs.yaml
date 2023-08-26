@@ -5,7 +5,7 @@ build:
   tools:
     MATLAB: "later than 2018b"
 
-MATLAB:
+python:
   install:
     - requirements: docs/requirements.txt
 
