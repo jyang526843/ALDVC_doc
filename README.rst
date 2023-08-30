@@ -1,8 +1,18 @@
-Template for the Read the Docs tutorial
+New title
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Simple code implementation of ...
+
+Screenshot 
+----------
+
+.. image:: screenshots/screenshot.png
+
+Installation 
+------------
+
+
+
 
 Read the tutorial here:
 
