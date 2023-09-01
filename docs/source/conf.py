@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Augmented Lagrangian Digital Volume Correlation (ALDVC)'
+copyright = '2023, Yang'
+author = 'Jin Yang'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.1'
+version = '1.1.0'
 
 # -- General configuration
 
@@ -28,8 +28,8 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
-
-# html_theme = 'sphinx_rtd_theme'
+html_style = 'default'
+html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
