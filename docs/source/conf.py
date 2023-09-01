@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Augmented Lagrangian Digital Volume Correlation (ALDVC)'
+copyright = '2023, Yang'
+author = 'Jin Yang'
 
 release = '0.1'
 version = '0.1.0'
