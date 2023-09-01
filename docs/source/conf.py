@@ -6,8 +6,8 @@ project = 'Augmented Lagrangian Digital Volume Correlation (ALDVC)'
 copyright = '2023, Yang'
 author = 'Jin Yang'
 
-release = '1.1'
-version = '1.1.0'
+release = '0.1'
+version = '0.1.0'
 
 # -- General configuration
 
