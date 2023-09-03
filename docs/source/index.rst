@@ -1,8 +1,7 @@
-Welcome to Lumache's documentation!
+Welcome to Augmented Lagrangian Digital Volume Correlation (ALDVC) Documentation
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
+MATLAB code implementation of the **Augmented Lagrangian Digital Volume Correlation (ALDVC)** method
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
@@ -17,8 +16,25 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   usage
-   API
+   pages/setup_ALDVC_code
+   pages/demo_case
 
-Lumache has its documentation hosted on Read the Docs.
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+* Source code: https://github.com/jyang526843/ALDVC_doc/tree/1.2
+* Home page: https://aldvc-doc.readthedocs.io/en/latest/index.html
+* Other links
+* Contact: Dr. Jin Yang, jin.yang@austin.utexas.edu
+
+# Theory of ALDVC
+
+# Demo case
+
+## Installation
