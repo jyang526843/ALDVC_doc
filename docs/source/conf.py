@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Augmented Lagrangian Digital Volume Correlation (ALDVC)'
-copyright = '2023, Yang'
+copyright = '2023, Jin Yang'
 author = 'Jin Yang'
 
 release = '0.1'
@@ -28,7 +28,6 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
-html_style = 'default'
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
