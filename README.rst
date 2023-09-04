@@ -18,7 +18,8 @@ Section title #2
 
 
 
-
+#ALDVC documentation link is available here:
+https://aldvc-doc.readthedocs.io/en/latest/#
 
 #Read the tutorial here:
 #https://docs.readthedocs.io/en/stable/tutorial/
