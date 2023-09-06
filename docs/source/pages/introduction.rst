@@ -30,6 +30,18 @@ Some advantages of our ALDVC algorithm are highlighted below:
     - [vi] It can solve an image sequence with multiple time frames and handle large finite deformations.
 
 
+See :cite:t:`1987:nelson` for an introduction to non-standard analysis.
+Non-standard analysis is fun :cite:p:`1987:nelson`.
+
+
+.. bibliography::
+@Book{1987:nelson,
+    author = {Edward Nelson},
+    title = {Radically Elementary Probability Theory},
+    publisher = {Princeton University Press},
+    year = {1987}
+}
+
 
 .. _[1]: J Yang, L Hazlett, A.K. Landauer, and C. Franck. Augmented Lagrangian Digital Volume Correlation. Experimental Mechanics, 2020.
 
