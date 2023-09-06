@@ -15,11 +15,6 @@ Welcome to the documentation for the Augmented Lagrangian Digital Volume Correla
 .. image:: ./images/aldvc_logo.png
     :alt: Overview of different DVC methods
 
-.. raw:: html
-
-   <div style="text-align: center;">
-      <img src=".\images\aldvc_logo.png" alt="Overview of different DVC methods" style="width: 80%;" />
-   </div>
 
 
 

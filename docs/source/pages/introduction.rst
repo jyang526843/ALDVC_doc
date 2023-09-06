@@ -29,3 +29,5 @@ Some advantages of our ALDVC algorithm are highlighted below:
     - [v] It works well with compressed images and can include adaptive mesh refinement [6].
     - [vi] It can solve an image sequence with multiple time frames 1.
 
+
+.. include:: references.rst

@@ -19,3 +19,5 @@ References
 .. _[13]: qFIDVC code. https://github.com/FranckLab/qFIDVC.
 .. _[14]: MathWorks Help Center: parpool. https://www.mathworks.com/help/distcomp/parpool.html.
 .. _[15]: PL Reu, E Toussaint, E Jones, HA Bruck, M Iadicola, R Balcaen, DZ Turner, T Siebert, P Lava, and M Simonsen. DIC challenge: Developing images and guidelines for evaluating accuracy and resolution of 2D analyses. Experimental Mechanics, 58:1067-1099, 2018.
+
+
