@@ -4,7 +4,7 @@ Welcome to Augmented Lagrangian Digital Volume Correlation (ALDVC) Documentation
 
 Welcome to the documentation for the Augmented Lagrangian Digital Volume Correlation (ALDVC) code package! Here you will find tutorials, articles, and links to the software manuals. Browse through the available articles using the links to the side.
 
-- :ref:`Introduction` introduces main differences and advantages of the ALDVC method compared to other conventional DVC method.
+- [Introduction](:ref:`introduction`) introduces main differences and advantages of the ALDVC method compared to other conventional DVC method.
 
 - :ref:`Getting started` will help you download the software, install it, and subscribe any future updates.
 
@@ -12,9 +12,8 @@ Welcome to the documentation for the Augmented Lagrangian Digital Volume Correla
 
 - The :ref:`FAQ` section contains common questions that we received during the past years from our users.
 
-
-#.. image:: docs\source\images\aldvc_logo.png
-#    :width: 90%
+.. image:: docs/source/images/aldvc_logo.png
+    :alt: Overview of different DVC methods
 
 .. raw:: html
 
