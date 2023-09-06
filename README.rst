@@ -1,14 +1,22 @@
 Augmented Lagrangian Digital Volume Correlation (ALDVC) Documentation
 =======================================
 
-MATLAB code implementation of the Augmented Lagrangian Digital Volume Correlation (ALDVC) method
+Welcome to the documentation for the Augmented Lagrangian Digital Volume Correlation (ALDVC) code package! Here you will find tutorials, articles, and links to the software manuals. Browse through the available articles using the links to the side.
+
+- Getting Started will help you download the software, install it, and subscribe any future updates.
+
+- The Tutorials section will help you with many basic and advanced topics including topics such as: performing your first ALDVC analysis, performing a mesh convergence study, and performing multiphasic analyses.
+
+- The FAQ section contains common questions that we received during the past years from our users.
+
 
 .. contents::
 
-Screenshot 
+Getting Started
 ----------
 
-.. image:: screenshots/screenshot.png
+.. image:: images/aldvc_logo.png
+    :width: 50%
 
 Installation 
 ------------
