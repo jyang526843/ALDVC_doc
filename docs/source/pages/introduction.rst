@@ -17,8 +17,8 @@ Here we present a new hybrid DVC algorithm, called augmented Lagrangian
 digital volume correlation (ALDVC) :ref:`[1]`, which combines the advantages of both the local (fast computation
 times) and global (compatible displacement field) methods. This new algorithm builds on
 our recent work on the augmented Lagrangian digital image correlation (2D-ALDIC) technique :ref:`[2]`
-(2D-ALDIC MATLAB code is avalable on Mathworks File Exchange: :ref:`[3]`) and solves the general motion optimization problem by using the alternating direction method of multipliers (ADMM) [4]_. We demonstrated that our ALDVC algorithm has high accuracy and precision while maintaining low computational cost, and is a significant improvement compared to current local and global DVC methods [1]_. For a review of both local and global DVC methods, and details of this new proposed ALDVC
-method, please see Fig. 1 and our paper :ref:`[1]` (full text can also be accessed via :ref:`[5]`).
+(2D-ALDIC MATLAB code is avalable on Mathworks File Exchange: :ref:`[3]`) and solves the general motion optimization problem by using the alternating direction method of multipliers (ADMM) :ref:`[4]`. We demonstrated that our ALDVC algorithm has high accuracy and precision while maintaining low computational cost, and is a significant improvement compared to current local and global DVC methods :ref:`[1]`. For a review of both local and global DVC methods, and details of this new proposed ALDVC
+method, please see :ref:`Fig. 1` and our paper :ref:`[1]` (full text can also be accessed via :ref:`[5]`).
 
 
 Some advantages of our ALDVC algorithm are highlighted below:
@@ -26,7 +26,7 @@ Some advantages of our ALDVC algorithm are highlighted below:
     - [ii] Global kinematic compatibility is added as a global constraint in augmented Lagrangian form, and solved using the Alternating Direction Method of Multipliers (ADMM) scheme.
     - [iii] Both displacement fields and affine deformation gradients are computed at the same time.
     - [iv] Since global compatibility is enforced the user does not need to choose a specific displacement smoothing filters.
-    - [v] It works well with compressed images and can include adaptive mesh refinement [6].
+    - [v] It works well with compressed images and can include adaptive mesh refinement :ref:`[6]`.
     - [vi] It can solve an image sequence with multiple time frames 1.
 
 
