@@ -14,10 +14,10 @@ Although the global method often enforces kinematic compatibility, it generally 
 greater computational costs than its local counterpart, which is especially significant for large volumetric data sets.
 
 Here we present a new hybrid DVC algorithm, called augmented Lagrangian
-digital volume correlation (ALDVC) :ref:`[1]`, which combines the advantages of both the local (fast computation
+digital volume correlation (ALDVC) :ref:`Ref1`_, which combines the advantages of both the local (fast computation
 times) and global (compatible displacement field) methods. This new algorithm builds on
-our recent work on the augmented Lagrangian digital image correlation (2D-ALDIC) technique :ref:`[2]`
-(2D-ALDIC MATLAB code is avalable on Mathworks File Exchange: :ref:`[3]`) and solves the general motion optimization problem by using the alternating direction method of multipliers (ADMM) :ref:`[4]`. We demonstrated that our ALDVC algorithm has high accuracy and precision while maintaining low computational cost, and is a significant improvement compared to current local and global DVC methods :ref:`[1]`. For a review of both local and global DVC methods, and details of this new proposed ALDVC
+our recent work on the augmented Lagrangian digital image correlation (2D-ALDIC) technique :ref:`Ref2`
+(2D-ALDIC MATLAB code is avalable on Mathworks File Exchange: :ref:`[3]`) and solves the general motion optimization problem by using the alternating direction method of multipliers (ADMM) :ref:`[4]`_. We demonstrated that our ALDVC algorithm has high accuracy and precision while maintaining low computational cost, and is a significant improvement compared to current local and global DVC methods :ref:`[1]`. For a review of both local and global DVC methods, and details of this new proposed ALDVC
 method, please see :ref:`Fig. 1` and our paper :ref:`[1]` (full text can also be accessed via :ref:`[5]`).
 
 

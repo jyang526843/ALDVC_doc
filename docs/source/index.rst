@@ -10,7 +10,7 @@ Welcome to the documentation for the Augmented Lagrangian Digital Volume Correla
 
 - The :ref:`your_first_aldvc_case` page will help you with many basic and advanced topics including topics such as: performing your first ALDVC analysis
 
-- The :ref:`faq` page contains common questions that we received during the past years from our users.
+- The :ref:`FAQ <faq>` page contains common questions that we received during the past years from our users.
 
 .. image:: ./images/aldvc_logo.png
     :alt: Overview of different DVC methods
