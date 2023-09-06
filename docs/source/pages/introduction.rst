@@ -1,6 +1,6 @@
-
+=====
 Introduction
-----------
+=====
 
 Digital volume correlation (DVC), the volumetric extension of the popular digital image correlation
 (DIC) technique, is a powerful experimental tool for measuring 3D volumetric full-field displacements
@@ -12,11 +12,11 @@ Although the global method often enforces kinematic compatibility, it generally 
 greater computational costs than its local counterpart, which is especially significant for large volumetric data sets.
 
 Here we present a new hybrid DVC algorithm, called augmented Lagrangian
-digital volume correlation (ALDVC) [1]_, which combines the advantages of both the local (fast computation
+digital volume correlation (ALDVC) :ref:`[1]`, which combines the advantages of both the local (fast computation
 times) and global (compatible displacement field) methods. This new algorithm builds on
-our recent work on the augmented Lagrangian digital image correlation (2D-ALDIC) technique [2]_
-(2D-ALDIC MATLAB code is avalable on Mathworks File Exchange: [3]_) and solves the general motion optimization problem by using the alternating direction method of multipliers (ADMM) [4]_. We demonstrated that our ALDVC algorithm has high accuracy and precision while maintaining low computational cost, and is a significant improvement compared to current local and global DVC methods [1]_. For a review of both local and global DVC methods, and details of this new proposed ALDVC
-method, please see Fig. 1 and our paper [1]_ (full text can also be accessed via [5]_).
+our recent work on the augmented Lagrangian digital image correlation (2D-ALDIC) technique :ref:`[2]`
+(2D-ALDIC MATLAB code is avalable on Mathworks File Exchange: :ref:`[3]`) and solves the general motion optimization problem by using the alternating direction method of multipliers (ADMM) [4]_. We demonstrated that our ALDVC algorithm has high accuracy and precision while maintaining low computational cost, and is a significant improvement compared to current local and global DVC methods [1]_. For a review of both local and global DVC methods, and details of this new proposed ALDVC
+method, please see Fig. 1 and our paper :ref:`[1]` (full text can also be accessed via :ref:`[5]`).
 
 
 Some advantages of our ALDVC algorithm are highlighted below:
@@ -27,3 +27,5 @@ Some advantages of our ALDVC algorithm are highlighted below:
     - [v] It works well with compressed images and can include adaptive mesh refinement [6].
     - [vi] It can solve an image sequence with multiple time frames 1.
 
+
+.. include:: references.rst
