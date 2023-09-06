@@ -14,7 +14,7 @@ Although the global method often enforces kinematic compatibility, it generally 
 greater computational costs than its local counterpart, which is especially significant for large volumetric data sets.
 
 Here we present a new hybrid DVC algorithm, called augmented Lagrangian
-digital volume correlation (ALDVC) :ref:`Ref1`_, which combines the advantages of both the local (fast computation
+digital volume correlation (ALDVC) `[1]`_, which combines the advantages of both the local (fast computation
 times) and global (compatible displacement field) methods. This new algorithm builds on
 our recent work on the augmented Lagrangian digital image correlation (2D-ALDIC) technique :ref:`Ref2`
 (2D-ALDIC MATLAB code is avalable on Mathworks File Exchange: :ref:`[3]`) and solves the general motion optimization problem by using the alternating direction method of multipliers (ADMM) :ref:`[4]`_. We demonstrated that our ALDVC algorithm has high accuracy and precision while maintaining low computational cost, and is a significant improvement compared to current local and global DVC methods :ref:`[1]`. For a review of both local and global DVC methods, and details of this new proposed ALDVC
@@ -22,17 +22,17 @@ method, please see :ref:`Fig. 1` and our paper :ref:`[1]` (full text can also be
 
 
 Some advantages of our ALDVC algorithm are highlighted below:
-    - [i] It is a fast algorithm using distributed parallel computing for a global nonconvex optimization.
-    - [ii] Global kinematic compatibility is added as a global constraint in augmented Lagrangian form, and solved using the Alternating Direction Method of Multipliers (ADMM) scheme.
+    - [i] It is a *fast* algorithm using *distributed parallel* computing for a global nonconvex optimization.
+    - [ii] *Global kinematic compatibility* is added as a global constraint in augmented Lagrangian form, and solved using the *Alternating Direction Method of Multipliers (ADMM)* scheme.
     - [iii] Both displacement fields and affine deformation gradients are computed at the same time.
     - [iv] Since global compatibility is enforced the user does not need to choose a specific displacement smoothing filters.
-    - [v] It works well with compressed images and can include adaptive mesh refinement :ref:`[6]`.
-    - [vi] It can solve an image sequence with multiple time frames 1.
+    - [v] It works well with compressed images and can include *adaptive mesh* refinement :ref:`[6]`.
+    - [vi] It can solve an image sequence with multiple time frames and handle large finite deformations.
 
 
-# .. include:: references.rst
 
-.. _Ref1: J Yang, L Hazlett, A.K. Landauer, and C. Franck. Augmented Lagrangian Digital Volume Correlation. Experimental Mechanics, 2020.
+.. _[1]: J Yang, L Hazlett, A.K. Landauer, and C. Franck. Augmented Lagrangian Digital Volume Correlation. Experimental Mechanics, 2020.
+
 
 .. _Ref2:
 * J Yang and K Bhattacharya. Augmented Lagrangian Digital Image Correlation. Experimental Mechanics, 59:187-205, 2019.
