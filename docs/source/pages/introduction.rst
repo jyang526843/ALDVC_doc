@@ -31,9 +31,15 @@ Some advantages of our ALDVC algorithm are highlighted below:
 
 
 # .. include:: references.rst
-.. _Ref1: J Yang, L Hazlett, A.K. Landauer, and C. Franck. Augmented Lagrangian Digital Volume Correlation. Experimental Mechanics, 2020.
-.. _Ref2: J Yang and K Bhattacharya. Augmented Lagrangian Digital Image Correlation. Experimental Mechanics, 59:187-205, 2019.
-.. _Ref3: 2D ALDIC code. https://www.mathworks.com/matlabcentral/fileexchange/70499-augmentedlagrangian-digital-image-correlation-and-tracking.
+.. _Ref1:
+* J Yang, L Hazlett, A.K. Landauer, and C. Franck. Augmented Lagrangian Digital Volume Correlation. Experimental Mechanics, 2020.
+
+.. _Ref2:
+* J Yang and K Bhattacharya. Augmented Lagrangian Digital Image Correlation. Experimental Mechanics, 59:187-205, 2019.
+
+.. _Ref3:
+* 2D ALDIC code. https://www.mathworks.com/matlabcentral/fileexchange/70499-augmentedlagrangian-digital-image-correlation-and-tracking.
+
 .. _[4]: S Boyd, N Parikh, E Chu, B Peleato, and J Eckstein. Distributed optimization and statistical learning via the alternating direction method of multipliers. Machine Learning, 3:1-122, 2010.
 .. _[5]: https://www.researchgate.net/publication/343676441 Augmented Lagrangian Digital Volume Correlation.
 .. _[6]: J Yang and K Bhattacharya. Combining image compression with digital image correlation. Experimental Mechanics, 59:629-642, 2019.
