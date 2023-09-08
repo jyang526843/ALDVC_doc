@@ -32,6 +32,8 @@ Welcome to the documentation for the Augmented Lagrangian Digital Volume Correla
    pages/first_case
    pages/faq
    pages/references
+   pages/try_citation
+
 
 Indices and tables
 -----------
@@ -50,5 +52,6 @@ Indices and tables
 .. include:: first_case.rst
 .. include:: faq.rst
 .. include:: references.rst
+.. include:: try_citation.rst
 
 
