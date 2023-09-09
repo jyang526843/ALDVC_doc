@@ -81,7 +81,7 @@ This works, but it has :ref:`some disadvantages <target to paragraph>`:
    :align: center
    :width: 240px
 
-    Linke me 2
+    Link me 2
 
 
 :numref:`target to image`
