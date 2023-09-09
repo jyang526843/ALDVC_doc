@@ -33,7 +33,7 @@ Some advantages of our ALDVC algorithm are highlighted below:
 
 .. _[1]:
 
-[1] J Yang, L Hazlett, A.K. Landauer, and C. Franck. Augmented Lagrangian Digital Volume Correlation. Experimental Mechanics, 2020.
+[1] J Yang, L Hazlett, A.K. Landauer, and C. Franck. Augmented Lagrangian Digital Volume Correlation. Experimental Mechanics, 60:1205-1223, 2020.
 
 
 .. _[2]:
@@ -42,7 +42,7 @@ Some advantages of our ALDVC algorithm are highlighted below:
 
 .. _[3]:
 
-[3] 2D ALDIC code. https://www.mathworks.com/matlabcentral/fileexchange/70499-augmentedlagrangian-digital-image-correlation-and-tracking.
+[3] 2D ALDIC MATLAB code. https://www.mathworks.com/matlabcentral/fileexchange/70499-augmentedlagrangian-digital-image-correlation-and-tracking.
 
 .. _[4]:
 
@@ -50,7 +50,7 @@ Some advantages of our ALDVC algorithm are highlighted below:
 
 .. _[5]:
 
-[5] https://www.researchgate.net/publication/343676441 Augmented Lagrangian Digital Volume Correlation.
+[5] ResearchGate link for "Augmented Lagrangian Digital Volume Correlation": https://www.researchgate.net/publication/343676441.
 
 .. _[6]:
 
@@ -58,7 +58,7 @@ Some advantages of our ALDVC algorithm are highlighted below:
 
 .. _[7]:
 
-[7] 3D Volume Interpolation with ba interp3. https://www.mathworks.com/matlabcentral/fileexchange/21702-3d-volume-interpolation-with-ba_interp3-fast-interp3-replacement.
+[7] 3D Volume Interpolation with ba_interp3. https://www.mathworks.com/matlabcentral/fileexchange/21702-3d-volume-interpolation-with-ba_interp3-fast-interp3-replacement.
 
 .. _[8]:
 
@@ -72,13 +72,23 @@ Some advantages of our ALDVC algorithm are highlighted below:
 
 [10] E Bar-Kochba, J Toyjanova, E Andrews, K-S Kim, and C Franck. A fast iterative digital volume correlation algorithm for large deformations. Experimental Mechanics, 55:261-274, 2015.
 
-.. _[11]: AK Landauer, M Patel, DL Henann, and C Franck. A q-factor-based digital image correlation algorithm (qDIC) for resolving finite deformations with degenerate speckle patterns. Experimental Mechanics, 58:815-830, 2018.
+.. _[11]:
 
-.. _[12]: FIDVC code. https://github.com/FranckLab/FIDVC.
+[11] AK Landauer, M Patel, DL Henann, and C Franck. A q-factor-based digital image correlation algorithm (qDIC) for resolving finite deformations with degenerate speckle patterns. Experimental Mechanics, 58:815-830, 2018.
 
-.. _[13]: qFIDVC code. https://github.com/FranckLab/qFIDVC.
+.. _[12]:
 
-.. _[14]: MathWorks Help Center: parpool. https://www.mathworks.com/help/distcomp/parpool.html.
+[12] FIDVC code. https://github.com/FranckLab/FIDVC.
 
-.. _[15]: PL Reu, E Toussaint, E Jones, HA Bruck, M Iadicola, R Balcaen, DZ Turner, T Siebert, P Lava, and M Simonsen. DIC challenge: Developing images and guidelines for evaluating accuracy and resolution of 2D analyses. Experimental Mechanics, 58:1067-1099, 2018.
+.. _[13]:
+
+[13] qFIDVC code. https://github.com/FranckLab/qFIDVC.
+
+.. _[14]:
+
+[14] MathWorks Help Center: parpool. https://www.mathworks.com/help/distcomp/parpool.html.
+
+.. _[15]:
+
+[15] PL Reu, E Toussaint, E Jones, HA Bruck, M Iadicola, R Balcaen, DZ Turner, T Siebert, P Lava, and M Simonsen. DIC challenge: Developing images and guidelines for evaluating accuracy and resolution of 2D analyses. Experimental Mechanics, 58:1067-1099, 2018.
 
