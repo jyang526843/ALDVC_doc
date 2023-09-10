@@ -22,6 +22,7 @@ method, please see :ref:`Fig. 1` and our paper `[1]`_ (full text can also be acc
 
 
 Some advantages of our ALDVC algorithm are highlighted below:
+
     * [i] It is a *fast* algorithm using *distributed parallel* computing for a global nonconvex optimization.
     * [ii] *Global kinematic compatibility* is added as a global constraint in augmented Lagrangian form, and solved using the *Alternating Direction Method of Multipliers (ADMM)* scheme.
     * [iii] Both displacement fields and affine deformation gradients are computed at the same time.
@@ -33,7 +34,7 @@ Some advantages of our ALDVC algorithm are highlighted below:
 
 .. _target to image:
 
-.. figure:: /img/fig_dvc_illustraion_figs1-3.png
+.. figure:: ./img/fig_dvc_illustraion_figs1-3.png
    :alt: Overview of different DVC methods
    :align: center
    :width: 500px
