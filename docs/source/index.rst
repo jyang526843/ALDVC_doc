@@ -31,7 +31,6 @@ Welcome to the documentation for the Augmented Lagrangian Digital Volume Correla
    pages/installation
    pages/first_case
    pages/faq
-   pages/references
    pages/try_citation
 
 

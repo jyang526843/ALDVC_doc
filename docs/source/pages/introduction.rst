@@ -1,8 +1,11 @@
 .. _introduction:
 
-=====
+==================
 Introduction
-=====
+==================
+
+Overview
+-----------------------
 
 Digital volume correlation (DVC), the volumetric extension of the popular digital image correlation
 (DIC) technique, is a powerful experimental tool for measuring 3D volumetric full-field displacements
@@ -21,25 +24,36 @@ our recent work on the augmented Lagrangian digital image correlation (2D-ALDIC)
 method, please see :ref:`Fig. 1` and our paper `[1]`_ (full text can also be accessed here `[5]`_).
 
 
-Some advantages of our ALDVC algorithm are highlighted below:
+Advantages of the ALDVC algorithm
+-----------------------
 
-    * i) It is a *fast* algorithm using *distributed parallel* computing for a global nonconvex optimization.
-    * ii) *Global kinematic compatibility* is added as a global constraint in augmented Lagrangian form, and solved using the *Alternating Direction Method of Multipliers (ADMM)* scheme.
-    * iii) Both displacement fields and affine deformation gradients are computed at the same time.
-    * iv) Since global compatibility is enforced the user does not need to choose a specific displacement smoothing filters.
-    * v) It works well with compressed images and can include *adaptive mesh* refinement `[6]`_.
-    * vi) It can solve an image sequence with multiple time frames and handle large finite deformations.
+* [1] It is a *fast* algorithm using *distributed parallel* computing for a global nonconvex optimization.
+* [2] *Global kinematic compatibility* is added as a global constraint in augmented Lagrangian form, and solved using the *Alternating Direction Method of Multipliers (ADMM)* scheme.
+* [3] Both displacement fields and affine deformation gradients are computed at the same time.
+* [4] Since global compatibility is enforced the user does not need to choose a specific displacement smoothing filters.
+* [5] It works well with compressed images and can include *adaptive mesh* refinement `[6]`_.
+* [6] It can solve an image sequence with multiple time frames and handle large finite deformations.
 
 
-A schematic showing the difference between ALDVC and other conventional DVC methods are summarized in :numref:`target to image`.
+A schematic showing the difference between ALDVC and other conventional DVC methods is summarized in :numref:`img_dvc_comp`.
 
-.. _target to image:
+
+
+.. _img_dvc_comp:
 
 .. figure:: ./img/fig_dvc_illustraion_figs1-3.png
-   :alt: Overview of different DVC methods
+   :alt: alt1
    :align: center
+   :width: 90 %
 
-    (a) Schematic showing a volumetric DVC reference image f(X), with a general speckle pattern, deforming into the deformed image g(y(X)) under some mapping y and the change of variables involved within the IC-GN iteration in the local subvolume DVC method. X and y coordinates are in the reference and deformed images, respectively. z coordinates are in current IC-GN iteration. (b) A schematic comparison between the local DVC method (left), where all the subvolumes are analyzed independently, and the global DVC method (right), where a global basis set is used to represent the full-field deformation.
+   **Comparison between different DVC methods.** (a) Schematic showing a volumetric DVC reference image f(**X**), with a general speckle pattern, deforming into the deformed image g(**y** (**X**) ) under some mapping **y** and the change of variables involved within the IC-GN iteration in the local subvolume DVC method. **X** and **y** coordinates are in the reference and deformed images, respectively. **z** coordinates are in current IC-GN iteration. (b) A schematic comparison between the local DVC method (left), where all the subvolumes are analyzed independently, and the global DVC method (right), where a global basis set is used to represent the full-field deformation.
+
+
+
+
+
+
+
 
 
 

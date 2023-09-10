@@ -65,26 +65,27 @@ An easy way is just to use the final link of the page/section.
 This works, but it has :ref:`some disadvantages <target to paragraph>`:
 
 
-.. _target to image:
+.. _target to image1:
 
 .. figure:: /img/logo.png
    :alt: Logo
    :align: center
    :width: 240px
 
-   Link me!
+   Link me image1!
 
-.. _target to image:
+.. _target to image2:
 
-.. figure:: /img/logo.png
+.. figure:: /img/logo2.png
    :alt: Logo
    :align: center
    :width: 240px
 
-    Link me 2
+   Link me image2
 
 
-:numref:`target to image`
+:numref:`target to image1`
+
 
 
 :numref:`target to image2`
@@ -98,7 +99,7 @@ This works, but it has :ref:`some disadvantages <target to paragraph>`:
    :align: center
    :width: 240px
 
-   Link me!
+   Link me table!
 
 
 

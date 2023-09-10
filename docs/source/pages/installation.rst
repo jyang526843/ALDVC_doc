@@ -1,11 +1,11 @@
 .. _installation:
 
-=====
+==================
 Getting started
-=====
+==================
 
 Installation
----------
+----------------
 
 To install ALDVC on your machine:
 
