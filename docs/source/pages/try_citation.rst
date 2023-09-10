@@ -74,7 +74,7 @@ This works, but it has :ref:`some disadvantages <target to paragraph>`:
 
    Link me!
 
-.. _target to image2:
+.. _target to image:
 
 .. figure:: /img/logo.png
    :alt: Logo
