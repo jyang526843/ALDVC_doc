@@ -18,7 +18,7 @@ digital volume correlation (ALDVC) `[1]`_, which combines the advantages of both
 times) and global (compatible displacement field) methods. This new algorithm builds on
 our recent work on the augmented Lagrangian digital image correlation (2D-ALDIC) technique `[2]`_
 (2D-ALDIC MATLAB code is avalable on Mathworks File Exchange: `[3]`_) and solves the general motion optimization problem by using the alternating direction method of multipliers (ADMM) `[4]`_. We demonstrated that our ALDVC algorithm has high accuracy and precision while maintaining low computational cost, and is a significant improvement compared to current local and global DVC methods `[1]`_. For a review of both local and global DVC methods, and details of this new proposed ALDVC
-method, please see :ref:`Fig. 1` and our paper `[1]`_ (full text can also be accessed via `[5]`_).
+method, please see :ref:`Fig. 1` and our paper `[1]`_ (full text can also be accessed here `[5]`_).
 
 
 Some advantages of our ALDVC algorithm are highlighted below:
@@ -30,6 +30,23 @@ Some advantages of our ALDVC algorithm are highlighted below:
     * [vi] It can solve an image sequence with multiple time frames and handle large finite deformations.
 
 
+
+.. _target to image:
+
+.. figure:: /img/fig_dvc_illustraion_figs1-3.png
+   :alt: Overview of different DVC methods
+   :align: center
+   :width: 500px
+
+(a) Schematic showing a volumetric DVC reference image f(X), with a general speckle
+pattern, deforming into the deformed image g(y(X)) under some mapping y and the change of
+variables involved within the IC-GN iteration in the local subvolume DVC method. X and y coordinates are in the reference and deformed images, respectively. z coordinates are in current IC-GN iteration. (b) A schematic comparison between the local DVC method (left), where all the subvolumes are analyzed independently, and the global DVC method (right), where a global basis set is used to represent the full-field deformation.
+
+
+
+-----
+References
+-----
 
 .. _[1]:
 

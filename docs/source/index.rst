@@ -13,7 +13,7 @@ Welcome to the documentation for the Augmented Lagrangian Digital Volume Correla
 - The :ref:`FAQ <faq>` page contains common questions that we received during the past years from our users.
 
 .. image:: ./images/aldvc_logo.png
-    :alt: Overview of different DVC methods
+    :alt: LOGO
 
 
 
